@@ -47,6 +47,7 @@ alias eg='ember generate'
 alias es='ember server'
 alias ns='npm start'
 alias nom='npm cache clear && rm -rf node_modules && npm install'
+alias bom='bower cache clean && rm -rf bower_component && bower install'
 
 # Git
 alias g="git"
@@ -96,3 +97,5 @@ alias fuckyou='killall'
 alias cask='brew cask'
 
 # unalias mysql
+
+alias mps="mix phoenix.server"

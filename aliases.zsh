@@ -50,6 +50,7 @@ alias nom='npm cache clear && rm -rf node_modules && npm install'
 alias bom='bower cache clean && rm -rf bower_component && bower install'
 
 # Git
+alias git="hub"
 alias g="git"
 alias s='git status'
 alias co='git checkout'

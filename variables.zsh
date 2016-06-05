@@ -22,3 +22,6 @@ export LESS='-R'
 export LESSOPEN='|~/.lessfilter %s'
 
 # export PATH="/usr/local/lib/node_modules/npm/node_modules/coffee-script/bin:$PATH"
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh

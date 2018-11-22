@@ -1,5 +1,10 @@
-fpath=(/usr/local/share/zsh-completions $fpath)
-eval "$(rbenv init - )"
+# fpath=(/usr/local/share/zsh-completions $fpath)
+# eval "$(rbenv init - )"
+
+# https://gist.github.com/kevin-smets/8568070#enable-word-jumps
+bindkey -e
+bindkey '^[[1;9C' forward-word
+bindkey '^[[1;9D' backward-word
 
 # Keypad
 # 0 . Enter

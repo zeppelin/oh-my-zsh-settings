@@ -39,15 +39,13 @@ alias m=subl
 # Ruby & Node
 alias be='bundle exec'
 alias r='rails'
-alias gt='grunt'
-alias gts='grunt server'
 alias bs='broccoli serve'
 alias e='ember'
 alias eg='ember generate'
 alias es='ember server'
 alias ns='npm start'
 alias nom='npm cache clear && rm -rf node_modules && npm install'
-alias bom='bower cache clean && rm -rf bower_component && bower install'
+alias bom='bower cache clean && rm -rf bower_components && bower install'
 
 # Git
 alias git="hub"
@@ -100,3 +98,4 @@ alias cask='brew cask'
 # unalias mysql
 
 alias mps="mix phoenix.server"
+alias go="jump"

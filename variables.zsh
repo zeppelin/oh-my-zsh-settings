@@ -19,9 +19,6 @@ export CLICOLOR=1
 export LS_COLORS='no=00:fi=00:di=00;34:ln=00;36:pi=40;33:so=00;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:ex=00;35:*.rb=00;31'
 
 export LESS='-R'
-export LESSOPEN='|~/.lessfilter %s'
+# export LESSOPEN='|~/.lessfilter %s'
 
-# export PATH="/usr/local/lib/node_modules/npm/node_modules/coffee-script/bin:$PATH"
-
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+export VLC_PLUGIN_PATH="/Applications/VLC.app/Contents/MacOS/plugins"
